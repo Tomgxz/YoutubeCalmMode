@@ -1,5 +1,5 @@
-#secondary {visibility:hidden!important}
-#primary {
+#secondary.ytd-watch-flexy {visibility:hidden!important}
+#primary.ytd-watch-flexy {
   margin-left: 0;
   position: relative;
   left: 50%;
@@ -7,5 +7,5 @@
   padding-left: var(--ytd-margin-6x);
 }
 
-#content, #masthead-container {transform: translateY(-56px)}
-#masthead-container {margin-bottom: 64px}
+#content, #masthead-container.ytd-app {transform: translateY(-56px)!important}
+#masthead-container.ytd-app {margin-bottom: 64px}
