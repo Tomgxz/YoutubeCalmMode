@@ -1,0 +1,12 @@
+#secondary {visibility:hidden!important}
+#primary {
+  margin-left: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-left: var(--ytd-margin-6x);
+}
+
+#content, #masthead-container {transform: translateY(-56px)}
+#masthead-container {margin-bottom: 64px}
+#masthead-container::hover {transform: translateY(0);}
