@@ -9,4 +9,3 @@
 
 #content, #masthead-container {transform: translateY(-56px)}
 #masthead-container {margin-bottom: 64px}
-#masthead-container::hover {transform: translateY(0);}
